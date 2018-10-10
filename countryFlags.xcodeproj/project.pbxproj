@@ -14,6 +14,8 @@
 		84B4A070216E252200CAB7F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B4A06E216E252200CAB7F0 /* LaunchScreen.storyboard */; };
 		84B4A07B216E252200CAB7F0 /* countryFlagsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4A07A216E252200CAB7F0 /* countryFlagsTests.swift */; };
 		84B4A086216E252200CAB7F0 /* countryFlagsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4A085216E252200CAB7F0 /* countryFlagsUITests.swift */; };
+		84B4A095216E2AA400CAB7F0 /* star.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B4A094216E2AA400CAB7F0 /* star.jpg */; };
+		84B4A097216E2D9D00CAB7F0 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B4A096216E2D9D00CAB7F0 /* star.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		84B4A081216E252200CAB7F0 /* countryFlagsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = countryFlagsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B4A085216E252200CAB7F0 /* countryFlagsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countryFlagsUITests.swift; sourceTree = "<group>"; };
 		84B4A087216E252200CAB7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B4A094216E2AA400CAB7F0 /* star.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = star.jpg; sourceTree = "<group>"; };
+		84B4A096216E2D9D00CAB7F0 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		84B4A064216E252100CAB7F0 /* countryFlags */ = {
 			isa = PBXGroup;
 			children = (
+				84B4A093216E2A6000CAB7F0 /* images */,
 				84B4A065216E252100CAB7F0 /* AppDelegate.swift */,
 				84B4A067216E252100CAB7F0 /* ViewController.swift */,
 				84B4A069216E252100CAB7F0 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				84B4A087216E252200CAB7F0 /* Info.plist */,
 			);
 			path = countryFlagsUITests;
+			sourceTree = "<group>";
+		};
+		84B4A093216E2A6000CAB7F0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84B4A096216E2D9D00CAB7F0 /* star.png */,
+				84B4A094216E2AA400CAB7F0 /* star.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B4A070216E252200CAB7F0 /* LaunchScreen.storyboard in Resources */,
+				84B4A097216E2D9D00CAB7F0 /* star.png in Resources */,
+				84B4A095216E2AA400CAB7F0 /* star.jpg in Resources */,
 				84B4A06D216E252200CAB7F0 /* Assets.xcassets in Resources */,
 				84B4A06B216E252100CAB7F0 /* Main.storyboard in Resources */,
 			);
